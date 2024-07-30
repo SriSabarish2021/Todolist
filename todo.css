@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+   
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: rgb(231,169,208);
+    background: linear-gradient(107deg, rgba(231,169,208,1) 26%, rgba(129,183,203,1) 62%, rgba(174,219,45,1) 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.wholediv{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+.inpdiv{
+    height: 250px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.input{
+    height: 50px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: rgba(56, 54, 54, 0.25) 0px 54px 55px, rgba(70, 68, 68, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.btndiv{
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inpbtn{
+    height: 40px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: rgb(233, 139, 254);
+}
+
+.listdiv{
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.unli{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.list{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.liinp{
+    border: 2px solid red;
+    height: 50px;
+}
+.spcl{
+    font-size: 10px;
+    border: 2px solid rgb(252, 56, 180);
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    border-radius: 50px;
+
+}
